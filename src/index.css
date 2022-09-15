@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&family=Edu+TAS+Beginner:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.me {
+  font-family: "Edu QLD Beginner", cursive;
+}
+.intro {
+  font-family: "Edu TAS Beginner", cursive;
+}
+.active{
+  color: white;
+  background: rgb(47, 50, 63);
+  border-radius: 8%;
+}
