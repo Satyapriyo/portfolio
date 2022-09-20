@@ -2,6 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities{
+  .bg-hover {
+    background: #ddd6f3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #faaca8,
+      #ddd6f3
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+
+}
 
 .me {
   font-family: "Edu QLD Beginner", cursive;
@@ -9,8 +26,21 @@
 .intro {
   font-family: "Edu TAS Beginner", cursive;
 }
-.active{
+.active {
   color: white;
   background: rgb(47, 50, 63);
   border-radius: 8%;
+}
+.bg-special {
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
