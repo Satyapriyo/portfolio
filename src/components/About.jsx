@@ -4,11 +4,12 @@ import Marquee from "react-fast-marquee";
 const About = () => {
   return (
     <>
-      <div className="w-20 bg-slate-600 mx-auto p-2 rounded mt-20 text-lg  font-extrabold text-white">
+      <div className="p-4 text-black font-bold w-72 bg-slate-400 rounded mx-auto mt-12 text-center">I am a 2nd year engineering student . I am a front end developer and just learning </div>
+      <div className="w-20 bg-slate-900 mx-auto hover:scale-110 cursor-pointer duration-300 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Skills
       </div>
       <Marquee pauseOnHover="true" speed="40">
-        <div className="text-white font-bold flex mt-[20vh] ">
+        <div className="text-white font-bold flex mt-[10vh] ">
           <div className="section bg-orange-400 w-48 h-32 pt-10 text-center my-[2vh] hover:scale-105 duration-200 rounded mx-20">
             <div>Html</div>
           </div>

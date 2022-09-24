@@ -6,12 +6,12 @@ const AboutMe = () => {
       <img
           src="logo192.png"
           alt=""
-          className=" sm:mx-auto h-[7vw] md:mx-0 shadow-xl z-20 rounded-full"
+          className=" sm:mx-auto h-[7vw] md:mx-0 shadow-xl z-20 rounded-full animate-bounce"
         />
         <div className="mx-auto ">
         
-          <p className="text-[5vh] font-bold intro">hello ! I am Satyapriyo</p>'
-          <div className=" me">
+          <p className="text-[5vh] font-bold intro">hello ! I am Satyapriyo</p>
+          <div className=" me"><br />
             <p> I am a front end developer</p>
           </div>
         </div>

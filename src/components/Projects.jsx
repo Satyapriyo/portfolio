@@ -21,7 +21,7 @@ const Projects = () => {
             <div>
               <a className="p-4" href="https://satyapriyobiswas.netlify.app/">link</a>
             </div>
-            <a href="https://github.com/Satyapriyo/TwitterLogIn"><i className="fa-brands fa-github p-2 cursor-pointer"></i></a> 
+            <a href="https://github.com/Satyapriyo/TwitterLogIn8"><i className="fa-brands fa-github p-2 cursor-pointer"></i></a> 
           </div>
         </div>
       </div>
