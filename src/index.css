@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer utilities{
+@layer utilities {
   .bg-hover {
     background: #ddd6f3; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -16,8 +16,18 @@
       #ddd6f3
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  
-
+  .bg-sugar {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(117, 136, 228, 1) 13%,
+      rgba(123, 63, 254, 1) 34%,
+      rgba(61, 254, 209, 1) 100%,
+      rgba(61, 255, 115, 1) 100%,
+      rgba(61, 255, 132, 1) 100%
+    );
+  }
 }
 
 .me {
