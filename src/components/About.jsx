@@ -1,15 +1,16 @@
 import React from "react";
 import "../index.css";
+import Footer from "./Footer"
 import Marquee from "react-fast-marquee";
 const About = () => {
   return (
     <>
-      <div className="p-4 text-black font-bold w-72 bg-slate-400 rounded mx-auto mt-12 text-center">I am a 2nd year engineering student . I am a front end developer and just learning </div>
+      <div className="p-4 text-black font-bold w-[60%]  rounded mx-auto text-3xl mt-4 text-center">I am a 2nd year engineering student . I am a front end developer and just learning and building projects make my skills a bit more clear.</div>
       <div className="w-20 bg-slate-900 mx-auto hover:scale-110 cursor-pointer duration-300 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Skills
       </div>
       <Marquee pauseOnHover="true" speed="40">
-        <div className="text-white font-bold flex mt-[10vh] ">
+        <div className="text-white font-bold flex mt-[5vh] ">
           <div className="section bg-orange-400 w-48 h-32 pt-10 text-center my-[2vh] hover:scale-105 duration-200 rounded mx-20">
             <div>Html</div>
           </div>
@@ -33,6 +34,7 @@ const About = () => {
           </div>
         </div>
       </Marquee>
+      <Footer/>
     </>
   );
 };

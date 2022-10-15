@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import Footer from "./Footer"
 const Projects = () => {
   return (
     <>
@@ -49,6 +50,7 @@ const Projects = () => {
       {/* <div className="w-48 p-4 mx-auto mt-32 text-3xl font-mono">
         Comming Soon ....
       </div> */}
+      <Footer/>
     </>
   );
 };
