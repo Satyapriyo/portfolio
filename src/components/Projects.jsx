@@ -27,7 +27,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="md:w-64 w-48 lg:w-96 bg-sugar mx-auto p-4 rounded hover:scale-125 duration-700 ease-in-out">
+      <div className="md:w-64 w-48 lg:w-96 bg_light mx-auto p-4 rounded hover:scale-125 duration-700 ease-in-out">
         <div className=" p-2 sm:text-md text-xl text-center font-bold">
           Twitter Login page clone
         </div>
