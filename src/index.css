@@ -66,3 +66,16 @@
     #7f00ff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.bg-mid {
+  background: rgb(58, 169, 180);
+  background: linear-gradient(
+    230deg,
+    rgba(58, 169, 180, 1) 0%,
+    rgba(64, 82, 215, 1) 0%,
+    rgba(89, 151, 193, 1) 21%,
+    rgba(102, 216, 62, 1) 100%,
+    rgba(92, 29, 253, 1) 100%,
+    rgba(236, 252, 69, 1) 100%
+  );
+}
