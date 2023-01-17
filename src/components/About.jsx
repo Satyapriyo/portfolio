@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const About = () => {
   return (
     <>
-      <div className="p-4 text-black font-bold w-[60%]  rounded mx-auto text-3xl mt-4 text-center">I am a 2nd year engineering student . I am a front end developer and just learning and building projects make my skills a bit more clear.</div>
+      <div className="p-4 text-black font-bold w-[60%]  rounded mx-auto text-3xl mt-4 text-center">I am a 2nd year engineering student . I am a front end developer learning and building projects . </div>
       <div className="w-20 bg-slate-900 mx-auto hover:scale-110 cursor-pointer duration-300 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Skills
       </div>
