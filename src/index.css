@@ -79,3 +79,28 @@
     rgba(236, 252, 69, 1) 100%
   );
 }
+
+button{
+  position: absolute;
+  right: 1rem;
+  background: #2afdfd;
+  margin-top: -2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.light{
+  color: black;
+}
+.dark{
+  color: white;
+  background: #000;
+}
+.overlay::after{
+  background: #00000004 !important;
+}
+.overlay::before{
+  background: #00000000 !important;
+}
+#id{
+  font-family: 'Ubuntu', sans-serif;
+}

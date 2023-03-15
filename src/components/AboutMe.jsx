@@ -1,7 +1,7 @@
 import React from "react";
 const AboutMe = () => {
   return (
-    <div>
+    <>
       <div className="p-8 rounded-2xl w-[60%] text-center mt-[5vh] text-lg  border-2 shadow-xl mx-auto h-[50vh] ">
       <img
           src="logo192.png"
@@ -16,7 +16,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default AboutMe;
