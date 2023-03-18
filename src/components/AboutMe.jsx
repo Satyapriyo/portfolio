@@ -10,7 +10,7 @@ const AboutMe = () => {
         />
         <div className="mx-auto ">
           <p className="text-[5vh] font-bold intro">
-            hello ! I am <span id="name">Satyapriyo</span> 👋🏻
+            hello ! I am <span id="name" className="text-[4rem] mx-3">Satyapriyo</span> 👋🏻
           </p>
           <div className=" me">
             <br />
