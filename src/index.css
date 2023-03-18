@@ -40,6 +40,42 @@
       rgba(62, 216, 216, 0.9224732129179797) 100%
     );
   }
+  .bg-04 {
+    background: rgb(58, 169, 180);
+    background: linear-gradient(
+      230deg,
+      rgba(58, 169, 180, 1) 0%,
+      rgba(81, 64, 215, 1) 0%,
+      rgba(89, 151, 193, 1) 60%,
+      rgba(207, 208, 72, 1) 100%,
+      rgba(91, 152, 191, 1) 100%,
+      rgba(102, 216, 62, 1) 100%,
+      rgba(92, 29, 253, 1) 100%,
+      rgba(236, 252, 69, 1) 100%
+    );
+  }
+  .bg-05 {
+    background: rgb(58, 169, 180);
+    background: linear-gradient(
+      230deg,
+      rgba(58, 169, 180, 1) 0%,
+      rgba(81, 64, 215, 1) 0%,
+      rgba(193, 136, 89, 1) 37%,
+      rgba(207, 208, 72, 1) 100%,
+      rgba(91, 152, 191, 1) 100%,
+      rgba(102, 216, 62, 1) 100%,
+      rgba(92, 29, 253, 1) 100%,
+      rgba(236, 252, 69, 1) 100%
+    );
+  }
+  .bg-06 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
 }
 
 .me {
@@ -80,7 +116,7 @@
   );
 }
 
-button{
+button {
   position: absolute;
   right: 1rem;
   background: #2afdfd;
@@ -88,19 +124,32 @@ button{
   padding: 0.5rem;
   border-radius: 1rem;
 }
-.light{
+.light {
   color: black;
 }
-.dark{
+.dark {
   color: white;
   background: #000;
 }
-.overlay::after{
-  background: #00000004 !important;
-}
-.overlay::before{
+.overlay::after {
   background: #00000000 !important;
 }
-#id{
-  font-family: 'Ubuntu', sans-serif;
+.overlay::before {
+  background: #00000000 !important;
+}
+#id {
+  font-family: "Ubuntu", sans-serif;
+}
+#btn {
+  font-size: 3rem;
+  padding: 0.3rem 4rem;
+  position: absolute;
+  top: 2rem;
+  right: 0px;
+  font-weight: 900;
+  background: #00000000;
+}
+
+#name {
+  color: #8dffff;
 }

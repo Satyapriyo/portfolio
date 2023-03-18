@@ -5,21 +5,25 @@ const Footer = () => {
       id: 1,
       name: "Gmail",
       icon: "fa-envelope",
+      link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 2,
       name: "Twitter",
       icon: "fa-twitter",
+      link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 3,
       name: "LinkedIn",
       icon: "fa-linkedin",
+      link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 4,
       name: "Github",
       icon: "fa-square-github",
+      link: "Satyapriyobiswas01@gmail.com"
     },
   ];
   return (
@@ -31,7 +35,7 @@ const Footer = () => {
             <div key={id}>
               <p className="m-2 cursor-pointer hover:font-bold">
                 <i className={`fa-solid ${icon} mx-2`}></i>
-                {name}
+                <a href={details.link}>{name}</a>
               </p>
             </div>
           );
