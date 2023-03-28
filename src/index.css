@@ -118,10 +118,7 @@
 
 button {
   position: absolute;
-  right: 1rem;
-  background: #2afdfd;
   margin-top: -2rem;
-  padding: 0.5rem;
   border-radius: 1rem;
 }
 .light {
@@ -140,15 +137,7 @@ button {
 #id {
   font-family: "Ubuntu", sans-serif;
 }
-#btn {
-  font-size: 3rem;
-  padding: 0.3rem 4rem;
-  position: absolute;
-  top: 2rem;
-  right: 0px;
-  font-weight: 900;
-  background: #00000000;
-}
+
 
 #name {
   color: #8dffff;
