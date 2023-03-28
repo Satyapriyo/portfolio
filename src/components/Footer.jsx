@@ -4,25 +4,25 @@ const Footer = () => {
     {
       id: 1,
       name: "Gmail",
-      icon: "fa-envelope",
+      icon: "fa-solid fa-envelope",
       link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 2,
       name: "Twitter",
-      icon: "fa-twitter",
+      icon: "fa-brands fa-twitter",
       link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 3,
       name: "LinkedIn",
-      icon: "fa-linkedin",
+      icon: "fa-brands fa-linkedin",
       link: "Satyapriyobiswas01@gmail.com"
     },
     {
       id: 4,
       name: "Github",
-      icon: "fa-square-github",
+      icon: "fa-brands fa-github",
       link: "Satyapriyobiswas01@gmail.com"
     },
   ];
