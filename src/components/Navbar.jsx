@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [mode]);
   return (
     <div className=" p-4 font-mono sticky top-0 z-50 bg-slate-900 w-[100vw] dark:bg-slate-700">
-      <div className="ml-[3%] flex space-x-6" id="nav">
+      <div className="ml-[1%] flex space-x-6" id="nav">
         {/* <img src="logoPortfolio_prev_ui.png" alt="" className="w-20 h-10 -ml-10 mr-20"/> */}
         <NavLink to={"/"}>
           <div className="hover:bg-slate-700 p-2 rounded-md shadow-2xl hover:text-white duration-300 cursor-pointer flex">

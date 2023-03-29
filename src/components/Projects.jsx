@@ -69,7 +69,7 @@ const Projects = () => {
         Projects
       </div>
       <div className="flex">
-        <Marquee pauseOnHover="true" speed="30" className="h-96">
+        <Marquee pauseOnHover="true" speed="30" className="h-[40vh]">
           {AllProjects.map((e) => {
             return (
               <>

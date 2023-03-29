@@ -27,7 +27,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="absolute bottom-[0px] w-[100vw] bg-slate-200 h-[15vh] dark:bg-slate-800">
+    <div className="absolute bottom-[0px] w-[100vw] bg-slate-200 h-[10vh] dark:bg-slate-800">
       <div className="flex mx-auto sm:w-[20vw] md:w-[20vw] lg:w-[20vw] justify-between p-2">
         {details.map((item) => {
           const { id, name, icon } = item;
