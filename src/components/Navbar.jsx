@@ -44,7 +44,7 @@ const Navbar = () => {
         </NavLink>
       </div>
       <button
-        className="dark:text-white text-[3rem]  font-bold right-0 top-[2rem] absolute py-[0.3rem] lg:px-[2rem] md:px-[2rem] sm:px-[2px] text-white"
+        className="dark:text-white sm:text-[2rem] text-[2rem] md:text-[3rem] lg:text-[3rem]  font-bold right-0 absolute py-[0.3rem] lg:px-[2rem] md:px-[2rem] sm:px-[2px] text-white top-[50%]"
         onClick={toggleMode}
       >
         {mode === "light" ? (
