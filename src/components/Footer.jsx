@@ -17,13 +17,13 @@ const Footer = () => {
       id: 3,
       name: "LinkedIn",
       icon: "fa-brands fa-linkedin",
-      link: "Satyapriyobiswas01@gmail.com"
+      link: "https://www.linkedin.com/in/satyapriyo-biswas-b88073225/"
     },
     {
       id: 4,
       name: "Github",
       icon: "fa-brands fa-github",
-      link: ""
+      link: "https://github.com/Satyapriyo"
     },
   ];
   return (
