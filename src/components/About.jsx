@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css";
 import Footer from "./Footer";
 import Marquee from "react-fast-marquee";
+import tailwindIcon from "../tailwindIcon.svg"
 const About = () => {
   return (
     <>
@@ -13,27 +14,27 @@ const About = () => {
         Skills
       </div>
       <Marquee pauseOnHover="true" speed="40">
-        <div className="text-white font-bold flex mt-[5vh]" id="marqueeId" >
+        <div className="text-white text-4xl font-bold flex mt-[5vh]" id="marqueeId" >
           <div className="section bg-orange-400 w-48 h-32 pt-10 text-center my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Html</div>
+            <div><i className="fa-brands fa-html5"></i></div>
           </div>
           <div className="section bg-sky-400 w-48 h-32 pt-10 text-center my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Css</div>
+            <div><i className="fa-brands fa-css3"></i></div>
           </div>
           <div className="section bg-yellow-400 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Javascript</div>
+            <div><i className="fa-brands fa-js"></i></div>
           </div>
           <div className="section bg-blue-400 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>ReactJs</div>
+            <div><i className="fa-brands fa-react"></i></div>
           </div>
-          <div className="section bg-green-500 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Tailwind Css</div>
+          <div className="section bg-teal-500 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
+            <div><img src={tailwindIcon} className="w-16 text-white items-center mx-auto justify-center" alt="" /></div>
           </div>
           <div className="section bg-violet-500 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Bootstrap</div>
+            <div><i className="fa-brands fa-bootstrap"></i></div>
           </div>
           <div className="section bg-slate-500 w-48 h-32 text-center pt-10 my-[2vh] hover:scale-105 duration-200 rounded mx-20">
-            <div>Git & GitHub</div>
+            <div><i className="fa-brands fa-github"></i></div>
           </div>
         </div>
       </Marquee>

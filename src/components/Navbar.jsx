@@ -21,7 +21,7 @@ const Navbar = () => {
         <NavLink to={"/"}>
           <div className="hover:bg-slate-700 p-2 rounded-md shadow-2xl hover:text-white duration-300 cursor-pointer flex">
             <i className="fa-solid fa-house sm:text-[1vw] md:text-sm lg:text-lg text-white"></i>
-            <div className="mx-[1vw] sm:text-[1vw] md:text-sm lg:text-lg text-white">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
               Home
             </div>
           </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
         <NavLink to={"/about"}>
           <div className="hover:bg-slate-700 p-2 rounded-md shadow-2xl hover:text-white duration-300 cursor-pointer flex">
             <i className=" fa-solid fa-address-book sm:text-[1vw] md:text-sm lg:text-lg text-white"></i>
-            <div className="mx-[1vw] sm:text-[1vw] md:text-sm lg:text-lg text-white">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
               about
             </div>
           </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <NavLink to={"/projects"}>
           <div className="hover:bg-slate-700 p-2 rounded-md shadow-2xl hover:text-white duration-300 cursor-pointer flex">
             <i className="fa-solid fa-wrench sm:text-[1vw] md:text-sm lg:text-lg text-white"></i>
-            <div className="mx-[1vw] sm:text-[1vw] md:text-sm lg:text-lg text-white">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
               Projects
             </div>
           </div>
