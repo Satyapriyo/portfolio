@@ -137,7 +137,10 @@ button {
 #id {
   font-family: "Ubuntu", sans-serif;
 }
-
+.techIcons{
+  color: #000;
+  font-size: 150%;
+}
 
 #name {
   color: #8dffff;
