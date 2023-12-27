@@ -77,6 +77,11 @@
     );
   }
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 .me {
   font-family: "Edu QLD Beginner", cursive;
@@ -137,7 +142,7 @@ button {
 #id {
   font-family: "Ubuntu", sans-serif;
 }
-.techIcons{
+.techIcons {
   color: #000;
   font-size: 150%;
 }

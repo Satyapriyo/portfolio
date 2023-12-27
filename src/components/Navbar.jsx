@@ -42,6 +42,14 @@ const Navbar = () => {
             </div>
           </div>
         </NavLink>
+        <NavLink to={"/experiment"}>
+          <div className="hover:bg-slate-700 p-2 rounded-md shadow-2xl hover:text-white duration-300 cursor-pointer flex">
+            <i className="fa-solid fa-wrench sm:text-[1vw] md:text-sm lg:text-lg text-white"></i>
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
+              Experiment
+            </div>
+          </div>
+        </NavLink>
       </div>
       <button
         className="dark:text-white sm:text-[2rem] text-[2rem] md:text-[3rem] lg:text-[3rem]  font-bold right-0 absolute py-[0.3rem] lg:px-[2rem] md:px-[2rem] sm:px-[2px] text-white top-[50%]"
