@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "../index.css";
+
+
+
+
 const Navbar = () => {
   const [mode, setMode] = useState(localStorage.getItem("mode") || "light");
   const toggleMode = () => {
