@@ -2,6 +2,25 @@ import React from "react";
 import "../index.css";
 import Footer from "./Footer";
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion";
+const containerVariants = {
+  initial: {
+    opacity: 0,
+    y: "100vh",
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  exit: {
+    y: "-100vh",
+    transition: { ease: "easeInOut" },
+  },
+};
 const Projects = () => {
   const AllProjects = [
     {
@@ -64,7 +83,12 @@ const Projects = () => {
     },
   ];
   return (
-    <>
+    <motion.div
+      variants={containerVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       <div className="w-28 bg-slate-600 mx-auto my-16 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Projects
       </div>
@@ -103,8 +127,7 @@ const Projects = () => {
           })}
         </Marquee>
       </div>
-      <Footer />
-    </>
+    </motion.div>
   );
 };
 

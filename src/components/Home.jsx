@@ -1,15 +1,40 @@
-import React from 'react'
+import React from "react";
 import AboutMe from "./AboutMe";
-import Footer from "./Footer";
+
+import { motion } from "framer-motion";
+const containerVariants = {
+  initial: {
+    opacity: 0,
+    y: "100vh",
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: "easeInOut",
+    },
+  },
+  exit: {
+    y: "-100vh",
+    transition: { ease: "easeInOut" },
+  },
+};
 const Home = () => {
   return (
-    <div className="dark:bg-dark">
+    <motion.div
+      variants={containerVariants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
+      <div className="dark:bg-dark">
         <div className="bg">
           <AboutMe />
-          <Footer />
         </div>
-    </div>
-  )
-}
+      </div>
+    </motion.div>
+  );
+};
 
-export default Home
+export default Home;

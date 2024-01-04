@@ -4,7 +4,7 @@ const AboutMe = () => {
     <>
       <div className="p-8 rounded-2xl sm:w-[100%] md:w-[70%] lg:w-[60%] text-center sm:mt-0 md:mt-[5vh] lg:mt-[5vh] text-lg  lg:border-2 md:border-2 sm:border-0 sm:shadow-none  lg:shadow-xl md:shadow-xl mx-auto lg:h-[50vh]  md:h-[50vh] sm:h-[100vh]">
         <img
-          src="logo192.png"
+          src="myLogo.png"
           alt=""
           className=" sm:mx-auto h-[7vw] md:mx-0 lg:mx-0 shadow-xl z-20 rounded-full animate-bounce"
         />
