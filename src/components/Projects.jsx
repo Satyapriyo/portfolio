@@ -1,15 +1,16 @@
 import React from "react";
 import "../index.css";
-import Footer from "./Footer";
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 const containerVariants = {
   initial: {
     opacity: 0,
+    scale: 0,
     y: "100vh",
   },
   animate: {
     opacity: 1,
+    scale: 1,
     y: 0,
     transition: {
       duration: 1,
@@ -92,8 +93,8 @@ const Projects = () => {
       <div className="w-28 bg-slate-600 mx-auto my-16 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Projects
       </div>
-      <div className="flex">
-        <Marquee pauseOnHover="true" speed="30" className="h-[40vh]">
+      <div className="flex w-[90vw]">
+        <Marquee pauseOnHover="true" opacity='0.5' speed="0.2" className="h-[40vh] ">
           {AllProjects.map((e) => {
             return (
               <>

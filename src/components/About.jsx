@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 const containerVariants = {
   initial: {
     opacity: 0,
+    scale: 0,
     y: "100vh",
   },
   animate: {
     opacity: 1,
+    scale: 1,
     y: 0,
     transition: {
       duration: 1,
@@ -36,7 +38,7 @@ const About = () => {
       <div className="w-20 bg-slate-900 mx-auto hover:scale-110 cursor-pointer duration-300 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Skills
       </div>
-      <Marquee pauseOnHover="true" speed="40">
+      <Marquee pauseOnHover="true" speed="0.2">
         <div
           className="text-white text-4xl font-bold flex mt-[5vh]"
           id="marqueeId"

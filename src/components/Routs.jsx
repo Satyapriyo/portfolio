@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./Navbar";
 import About from "./About";
 import Projects from "./Projects";
-import Experimant from "../pages/Experimant";
+import Contact from "../pages/Contact";
 import Footer from "./Footer";
 const Routs = () => {
   const location = useLocation();
@@ -17,7 +17,7 @@ const Routs = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/experiment" element={<Experimant />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
       <Footer />

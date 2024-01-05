@@ -1,45 +1,37 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
-  const details = [
-    {
-      id: 1,
-      name: "Gmail",
-      icon: "fa-solid fa-envelope",
-      link: "Satyapriyobiswas01@gmail.com",
-    },
-    {
-      id: 2,
-      name: "Twitter",
-      icon: "fa-brands fa-twitter",
-      link: "Satyapriyobiswas01@gmail.com",
-    },
-    {
-      id: 3,
-      name: "LinkedIn",
-      icon: "fa-brands fa-linkedin",
-      link: "https://www.linkedin.com/in/satyapriyo-biswas-b88073225/",
-    },
-    {
-      id: 4,
-      name: "Github",
-      icon: "fa-brands fa-github",
-      link: "https://github.com/Satyapriyo",
-    },
-  ];
   return (
-    <div className="fixed mt-auto bottom-0 w-[100vw] bg-slate-200 h-[10wwvh] dark:bg-slate-800">
-      <div className="flex mx-auto sm:w-[20vw] md:w-[20vw] lg:w-[20vw] justify-between p-2">
-        {details.map((item) => {
-          const { id, name, icon } = item;
-          return (
-            <div key={id}>
-              <p className="m-2 cursor-pointer duration-300 w-32 ">
-                <i className={`fa-solid ${icon} mx-2`}></i>
-                <a href={details.link}>{name}</a>
-              </p>
+    <div className="fixed  right-5 top-72 text-black  bg-slate-200  dark:bg-slate-800 rounded-3xl">
+      <div className=" mx-autojustify-between p-2">
+        <NavLink to={"/"}>
+          <div className="hover:bg-slate-300 dark:hover:bg-slate-700 rounded-full mt-20 p-1 py-2 shadow-2xl hover:text-white duration-300 cursor-pointer flex">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg ">
+              <i className="fa-solid fa-house sm:text-[1vw] md:text-sm lg:text-lg dark:text-white text-black"></i>
             </div>
-          );
-        })}
+          </div>
+        </NavLink>
+        <NavLink to={"/about"}>
+          <div className="hover:bg-slate-300 dark:hover:bg-slate-700 mt-8 rounded-full p-1 py-2 shadow-2xl hover:text-white duration-300 cursor-pointer flex">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
+              <i className=" fa-solid fa-user-large sm:text-[1vw] md:text-sm lg:text-lg dark:text-white text-black"></i>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to={"/projects"}>
+          <div className="hover:bg-slate-300 dark:hover:bg-slate-700 rounded-full mt-8 p-1 py-2 shadow-2xl hover:text-white duration-300 cursor-pointer flex">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
+              <i className="fa-solid fa-wrench sm:text-[1vw] md:text-sm lg:text-lg dark:text-white text-black"></i>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to={"/contact"}>
+          <div className="hover:bg-slate-300 dark:hover:bg-slate-700  rounded-full shadow-2xl p-1 py-2 mt-8 mb-20 hover:text-white duration-300 cursor-pointer flex">
+            <div className="mx-[1vw] sm:text-[0.8vw] md:text-sm lg:text-lg text-white">
+              <i className="fa-solid fa-envelope sm:text-[1vw] md:text-sm lg:text-lg dark:text-white text-black"></i>
+            </div>
+          </div>
+        </NavLink>
       </div>
     </div>
   );
