@@ -3,21 +3,22 @@ import { motion } from "framer-motion";
 import "../index.css";
 const containerVariants = {
   initial: {
-    scale: 0,
     opacity: 0,
-    y: "100vh",
+    scale: 0,
+    x: "50vw",
   },
   animate: {
     opacity: 1,
     scale: 1,
-    y: "0",
+    x: 0,
     transition: {
       duration: 1,
       ease: "easeInOut",
     },
   },
   exit: {
-    y: "-100vh",
+    x: "50vw",
+    scale: 0,
     transition: { ease: "easeInOut" },
   },
 };

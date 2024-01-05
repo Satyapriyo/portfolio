@@ -7,20 +7,22 @@ const containerVariants = {
   initial: {
     opacity: 0,
     scale: 0,
-    y: "100vh",
+    x: "50vw",
   },
   animate: {
     opacity: 1,
     scale: 1,
-    y: 0,
+    x: 0,
     transition: {
       duration: 1,
       ease: "easeInOut",
     },
   },
   exit: {
-    y: "-100vh",
-    transition: { ease: "easeInOut" },
+    x: "50vw",
+    y: "10vw",
+    scale: 0,
+    transition: { ease: "easeInOut",duration:0.5 },
   },
 };
 const About = () => {
@@ -30,6 +32,7 @@ const About = () => {
       initial="initial"
       animate="animate"
       exit="exit"
+      className="w-[90vw] bg-red-500"
     >
       <div className="p-4 text-black dark:text-white font-bold w-[60%]  rounded mx-auto lg:text-3xl md:text-2xl sm:text-xl mt-4 text-center">
         I am front end ethusiast , curious to learn to and apply my learnings in
@@ -38,7 +41,7 @@ const About = () => {
       <div className="w-20 bg-slate-900 mx-auto hover:scale-110 cursor-pointer duration-300 p-2 rounded mt-20 text-lg  font-extrabold text-white">
         Skills
       </div>
-      <Marquee pauseOnHover="true" speed="0.2">
+      <Marquee pauseOnHover="true" speed="0.1" className="">
         <div
           className="text-white text-4xl font-bold flex mt-[5vh]"
           id="marqueeId"
